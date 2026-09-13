@@ -1,0 +1,151 @@
+FAIQ MOHSIN — PERSONAL AI ASSISTANT KNOWLEDGE BASE
+
+BASIC INFORMATION
+My name is Faiq Mohsin. I am an AI Engineer and Full Stack Developer based in Lahore, Pakistan. I am currently a third year Computer Science student at NUML University (National University of Modern Languages) graduating in 2027. I have over 3 years of professional development experience and I am actively transitioning into AI Engineering.
+
+CONTACT INFORMATION
+Email: faiqmohsin7@gmail.com
+Phone: +92 333 4571175
+Location: Lahore, Pakistan
+LinkedIn: linkedin.com/in/faiq-mohsin-63078a351
+GitHub: github.com/FaiqMohsin
+Behance: behance.net/faiqmohsin
+Live AI Project: cortex-study-ai.streamlit.app
+
+ABOUT ME
+I am a passionate developer who started working professionally in my first year of university which shows I can handle real responsibilities. I began as a frontend developer and progressively expanded into backend development with Laravel, then into AI Engineering with Python, LangChain, RAG systems, and FastAPI. I believe in building things that actually work in production not just demos. I am hardworking, direct, and focused on delivering real results. I communicate clearly, meet deadlines, and learn fast. I adapt quickly to new technologies. I am passionate about AI and building products that solve real problems for real people in Pakistan and globally.
+
+EDUCATION
+I am currently pursuing a Bachelor of Computer Science at NUML University (National University of Modern Languages, Islamabad) from 2023 to 2027. My relevant coursework includes Data Structures, Algorithms, Database Systems, Object Oriented Programming, and AI Fundamentals.
+
+I completed a Diploma in Website Designing and Development from Brain's Group of Colleges in 2022 to 2023.
+
+I also completed a Diploma in Digital Marketing and Freelancing from Brain's Group of Colleges in 2022 to 2023.
+
+CURRENT JOB
+I currently work at Dynamic Media Group as a Website Developer from July 2025 to present. I design, maintain, update and develop responsive visually appealing websites tailored to client needs. I build, customize, and manage eCommerce stores using Shopify. I develop and manage dynamic websites using WordPress CMS.
+
+WORK EXPERIENCE
+
+Job 1: Dynamic Media Group — Website Developer (July 2025 to Present)
+I design and develop responsive websites for clients across various industries. I manage eCommerce stores on Shopify including product listings, payment integrations, and theme customization. I build and maintain WordPress websites with custom plugins and themes. I handle client communication and project delivery end to end.
+
+Job 2: HSF Technology — Laravel Developer (March 2025 to July 2025)
+I developed and maintained RESTful APIs using the Laravel PHP framework for seamless frontend-backend communication. I wrote clean, efficient, and well-documented code following MVC architecture best practices. I integrated third-party services and libraries to extend application functionality. I collaborated with frontend developers to ensure smooth API integration.
+
+Job 3: HSF Technology — Frontend Developer (November 2024 to July 2025)
+I designed and developed responsive, visually engaging websites tailored to client requirements. I built and customized eCommerce stores using Shopify ensuring seamless user experience. I developed and maintained dynamic websites using WordPress CMS. I designed and managed social media platform visuals for the company.
+
+Job 4: Finex Outsourcing — SEO Expert (April 2024 to October 2024)
+I collaborated with websites and blogs for guest posts to build high quality backlinks and boost domain authority. I implemented traffic-driving strategies to increase website visibility and generate leads. I performed keyword research to enhance content visibility and drive organic traffic. I conducted technical SEO audits and implemented on-page and off-page optimization strategies.
+
+Job 5: The WebStorms — Frontend Developer (June 2023 to January 2024)
+I developed and designed responsive websites and eCommerce stores. I established user-friendly interfaces ensuring great user experience. I made websites responsive to run properly across all devices including mobile, tablet, and desktop.
+
+AI ENGINEERING SKILLS
+Python — primary language for all AI development
+LangChain — framework for building LLM-powered applications and chains
+LangGraph — framework for building stateful AI agents with loops and conditional edges
+RAG Systems — Retrieval Augmented Generation for document-based AI applications
+ChromaDB — vector database for storing and searching document embeddings
+FastAPI — Python framework for building production REST APIs
+Cohere API — LLM and embedding API used in production projects
+Prompt Engineering — designing effective prompts for LLM applications
+Streamlit — Python framework for building AI web interfaces
+Vector Databases — understanding of embedding-based semantic search
+Large Language Models — practical experience calling and working with LLMs
+Generative AI — building applications powered by generative AI models
+Agentic AI — building AI agents that can take autonomous actions using tools
+AI Automation — automating workflows and tasks using AI
+
+WEB DEVELOPMENT SKILLS
+Laravel — PHP framework for building REST APIs and web applications
+PHP — server-side scripting language
+JavaScript — frontend interactivity and DOM manipulation
+HTML5 — semantic markup and structure
+CSS3 — styling and responsive design
+Bootstrap — CSS framework for rapid UI development
+WordPress — CMS for dynamic websites and blogs
+Shopify — eCommerce platform for online stores
+GoHighLevel — marketing automation and CRM platform
+REST API Development — designing and consuming RESTful APIs
+Git and GitHub — version control and collaboration
+
+DIGITAL MARKETING SKILLS
+On Page SEO — keyword optimization, meta tags, content structure
+Off Page SEO — link building, backlinks, domain authority
+Paid Ad Campaigns — Facebook Ads, Instagram Ads, Google Ads
+Digital Marketing — overall digital marketing strategy and execution
+Social Media Marketing — content creation and platform management
+Content Marketing — creating content that drives traffic and conversions
+
+DESIGN TOOLS
+Adobe Photoshop — image editing and graphic design
+Canva — quick design for social media and marketing materials
+Figma — UI/UX wireframing and prototyping
+
+PROJECTS
+
+Project 1: Cortex — AI Study Assistant (2026)
+Cortex is my flagship AI engineering project. It is a production-ready RAG-based study assistant that lets students upload their PDF study materials and interact with them intelligently through natural language. The problem it solves is that students have large amounts of study material but struggle to find specific information quickly, generate practice questions, or get concise summaries for revision.
+
+Features of Cortex:
+- Ask Questions: students can ask any question about their uploaded documents and get accurate answers retrieved directly from their content
+- Generate Quiz: the system automatically generates multiple choice practice questions on any topic from the documents
+- Summarize: students get concise exam-focused bullet-point summaries of any topic
+- Multi-document support: multiple PDFs can be uploaded and searched together
+- Source citation: every answer shows which document it came from
+
+How Cortex works technically:
+The student uploads a PDF. The system extracts text from every page using PyPDF. The text is split into 500 character chunks with 50 character overlap to preserve context at boundaries. Each chunk is converted to a vector embedding using Cohere embed-v4.0. The embeddings are stored in ChromaDB. When a student asks a question the question is also converted to an embedding. ChromaDB finds the most semantically similar chunks using cosine similarity. The top 4 chunks are retrieved and injected into a prompt as context. Cohere command-a-plus LLM generates an answer using only that retrieved context. This prevents hallucination because the AI only answers from the actual documents.
+
+Live demo: cortex-study-ai.streamlit.app
+GitHub: github.com/FaiqMohsin/cortex-ai
+Tech stack: Python, Cohere API, ChromaDB, LangChain, LangGraph, FastAPI, Streamlit
+Deployed on: Streamlit Community Cloud
+
+Project 2: SmartBMS — IoT and Deep Learning Battery Health System (2026)
+SmartBMS is my Final Year Project at NUML University. It is a complete IoT-enabled predictive maintenance system for monitoring and predicting battery health in real time. The problem it solves is that millions of Pakistani households depend on lead-acid UPS batteries as backup power during load-shedding, but have no way to predict when the battery will fail until it actually dies.
+
+Features of SmartBMS:
+- Predicts State of Health (SoH) — how much capacity the battery has left
+- Predicts State of Charge (SoC) — current charge level
+- Predicts Remaining Useful Life (RUL) — how many charge cycles left before end of life
+- Real-time monitoring via Flutter Android dashboard
+- SHAP explainability — plain language explanations of why the battery is degrading
+- Dual-mode communication — WiFi primary with Bluetooth fallback for Pakistan's unreliable internet
+- On-device TFLite inference — works offline when internet is down
+- Automated relay control — automatically cuts off load or charger based on thresholds
+- Total hardware cost under PKR 2700
+
+Technical details:
+Applied transfer learning from NASA PCoE Li-ion benchmark dataset to a 620 million row real-world lead-acid battery dataset from Oxford University (BBOXX solar installations in Africa) achieving less than 2.5 percent RMSE accuracy. Used LSTM neural network for SoH prediction, Random Forest for SoC, and XGBoost for RUL. Integrated SHAP explainability with DeepExplainer and TreeExplainer to generate plain language diagnostic messages. Built a dual-mode WiFi and Bluetooth communication pipeline using ESP32 microcontroller. Deployed FastAPI backend on Render.com free tier with Supabase PostgreSQL database. Built Flutter Android app with real-time gauges, historical trend charts, anomaly highlighting, and PDF health report generation.
+
+Tech stack: Python, TensorFlow, PyTorch, XGBoost, SHAP, FastAPI, Flutter, Dart, TFLite, ESP32, Supabase PostgreSQL, Render.com
+
+CERTIFICATIONS
+Diploma of Website Development — Brain's Group of Colleges, 2023
+Digital Marketing and Social Media Management — Brain's Group of Colleges, 2023
+
+WHAT I AM LOOKING FOR
+I am actively looking for remote AI engineering roles, freelance AI projects, and collaborations internationally. I am available for more than 30 hours per week and can start immediately. I am especially interested in projects involving RAG systems, AI chatbots, LangChain and LangGraph agents, FastAPI backends, and full stack AI applications. I am also available for WordPress, Shopify, Laravel, and digital marketing projects. My rate on Upwork starts at $20 per hour for AI projects and $15 per hour for web development projects.
+
+WHY HIRE FAIQ
+I bring a rare combination of AI engineering skills and full stack web development experience. Most AI engineers cannot build a complete frontend. Most web developers cannot build AI systems. I can do both which means I build complete AI products end to end without needing additional developers. I started working professionally in my first year of university. I have worked at 5 different companies gaining experience in frontend, backend, SEO, and now AI. I have two deployed projects with live URLs that anyone can use right now. I learn fast — I went from zero AI knowledge to building production RAG systems in 2 months. I am based in Pakistan which means my rates are competitive for international clients while my quality matches global standards.
+
+PERSONALITY AND WORKING STYLE
+I am direct, hardworking, and focused on results. I do not over-promise. I deliver what I commit to. I communicate proactively and flag issues early. I prefer clear requirements and structured deadlines. I write clean, documented code. I test before delivering. I am always learning and staying updated with the latest AI tools and frameworks. I am comfortable working independently on remote projects and collaborating in teams.
+
+LANGUAGES SPOKEN
+English — Fluent (professional level)
+Urdu — Fluent (native)
+Hindi — Fluent
+Punjabi — Fluent
+
+SOCIAL LINKS AND PORTFOLIO
+GitHub: github.com/FaiqMohsin
+LinkedIn: linkedin.com/in/faiq-mohsin-63078a351
+Behance: behance.net/faiqmohsin
+Live AI Project: cortex-study-ai.streamlit.app
+Email: faiqmohsin7@gmail.com
+Phone: +92 333 4571175
