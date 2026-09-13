@@ -10,7 +10,7 @@ from chromadb.utils import embedding_functions
 # ─────────────────────────────────────────
 # SETUP
 # ─────────────────────────────────────────
-API_KEY = "zZPz0NpP3lgzjnUMvqUQ0nrzbWpJxwk9cjEjNZUU"
+API_KEY = "your_cohere_key_here"
 
 cohere_client = cohere.ClientV2(api_key=API_KEY)
 
