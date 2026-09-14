@@ -30,16 +30,13 @@ WORK EXPERIENCE
 Job 1: Dynamic Media Group — Website Developer (July 2025 to Present)
 I design and develop responsive websites for clients across various industries. I manage eCommerce stores on Shopify including product listings, payment integrations, and theme customization. I build and maintain WordPress websites with custom plugins and themes. I handle client communication and project delivery end to end.
 
-Job 2: HSF Technology — Laravel Developer (March 2025 to July 2025)
-I developed and maintained RESTful APIs using the Laravel PHP framework for seamless frontend-backend communication. I wrote clean, efficient, and well-documented code following MVC architecture best practices. I integrated third-party services and libraries to extend application functionality. I collaborated with frontend developers to ensure smooth API integration.
-
-Job 3: HSF Technology — Frontend Developer (November 2024 to July 2025)
+Job 2: HSF Technology — Frontend Developer (November 2024 to July 2025)
 I designed and developed responsive, visually engaging websites tailored to client requirements. I built and customized eCommerce stores using Shopify ensuring seamless user experience. I developed and maintained dynamic websites using WordPress CMS. I designed and managed social media platform visuals for the company.
 
-Job 4: Finex Outsourcing — SEO Expert (April 2024 to October 2024)
+Job 3: Finex Outsourcing — SEO Expert (April 2024 to October 2024)
 I collaborated with websites and blogs for guest posts to build high quality backlinks and boost domain authority. I implemented traffic-driving strategies to increase website visibility and generate leads. I performed keyword research to enhance content visibility and drive organic traffic. I conducted technical SEO audits and implemented on-page and off-page optimization strategies.
 
-Job 5: The WebStorms — Frontend Developer (June 2023 to January 2024)
+Job 4: The WebStorms — Frontend Developer (June 2023 to January 2024)
 I developed and designed responsive websites and eCommerce stores. I established user-friendly interfaces ensuring great user experience. I made websites responsive to run properly across all devices including mobile, tablet, and desktop.
 
 AI ENGINEERING SKILLS
