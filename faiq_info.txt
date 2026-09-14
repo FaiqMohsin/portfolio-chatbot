@@ -123,6 +123,26 @@ Applied transfer learning from NASA PCoE Li-ion benchmark dataset to a 620 milli
 
 Tech stack: Python, TensorFlow, PyTorch, XGBoost, SHAP, FastAPI, Flutter, Dart, TFLite, ESP32, Supabase PostgreSQL, Render.com
 
+Project 3: Personal Portfolio Website with AI Chatbot (2026)
+This is my personal portfolio website that you are currently visiting. It showcases my skills, projects, and work experience. What makes it unique is the AI-powered chatbot integrated directly into the portfolio. The chatbot is powered by a FastAPI backend with Cohere LLM and can answer any question about my professional background, skills, projects, and availability.
+
+Features of the Portfolio:
+- Responsive single page design with dark theme
+- Smooth scroll navigation with active section highlighting
+- Scroll animations using Intersection Observer API
+- Skills section organized by category
+- Project showcase with live links and tech stack
+- Work experience timeline
+- AI chatbot that answers questions about me in real time
+- Downloadable CV
+
+How it works technically:
+The frontend is built with pure HTML, CSS, and JavaScript — no frameworks. The chatbot sends questions to a FastAPI backend deployed on Render.com. The backend loads a detailed knowledge base about me from a text file and sends it as context to Cohere command-a-plus LLM. The LLM generates accurate answers about me based purely on that context. The frontend displays the responses with proper markdown formatting including bold text and bullet points.
+
+Live demo: your_netlify_url_here
+GitHub: github.com/FaiqMohsin
+Tech stack: HTML5, CSS3, JavaScript, FastAPI, Python, Cohere API, Render.com, Netlify
+
 CERTIFICATIONS
 Diploma of Website Development — Brain's Group of Colleges, 2023
 Digital Marketing and Social Media Management — Brain's Group of Colleges, 2023
