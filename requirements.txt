@@ -1,7 +1,4 @@
 fastapi
 uvicorn
 cohere
-chromadb
-pypdf
-pillow
 python-multipart
